@@ -7,7 +7,7 @@
 
 import WidgetKit
 import SwiftUI
-import MyKit
+import MyKit3
 
 struct Provider: AppIntentTimelineProvider {
     func placeholder(in context: Context) -> SimpleEntry {
@@ -51,7 +51,7 @@ struct MyWatchWidgetsEntryView : View {
         VStack {
             HStack {
                 Text("One or two:")
-							Text(entry.myEnum.str, style: .time)
+							Text(entry.myEnum.str)
             }
 
 					HStack {
