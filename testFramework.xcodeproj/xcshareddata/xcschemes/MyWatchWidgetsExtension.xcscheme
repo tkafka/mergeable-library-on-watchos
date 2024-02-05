@@ -44,8 +44,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D343BAE2AC1A1E000E6D676"
-               BuildableName = "testFramework.app"
-               BlueprintName = "testFramework"
+               BuildableName = "MyApp.app"
+               BlueprintName = "MyApp"
                ReferencedContainer = "container:testFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
