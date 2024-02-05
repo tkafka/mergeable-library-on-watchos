@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import MyKit3
 
 @main
 struct testFrameworkApp: App {

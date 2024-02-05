@@ -10,13 +10,13 @@
 		3D18ADBC2B70E07000E53B6A /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D18ADBF2B70E07400E53B6A /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D18ADC22B70E89E00E53B6A /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29C2712AC1B217006F1595 /* MyEnum.swift */; };
+		3D18ADC32B70EAFB00E53B6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BB42AC1A1E000E6D676 /* ContentView.swift */; };
+		3D18ADC42B70EB1200E53B6A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BB62AC1A1E000E6D676 /* Item.swift */; };
 		3D29C26C2AC1B1FD006F1595 /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D29C26D2AC1B1FD006F1595 /* MyKit3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D29C2812AC1B409006F1595 /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D29C2822AC1B409006F1595 /* MyKit3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D343BB32AC1A1E000E6D676 /* testFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BB22AC1A1E000E6D676 /* testFrameworkApp.swift */; };
-		3D343BB52AC1A1E000E6D676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BB42AC1A1E000E6D676 /* ContentView.swift */; };
-		3D343BB72AC1A1E000E6D676 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BB62AC1A1E000E6D676 /* Item.swift */; };
 		3D343BB92AC1A1E000E6D676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D343BB82AC1A1E000E6D676 /* Assets.xcassets */; };
 		3D343BBC2AC1A1E000E6D676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D343BBB2AC1A1E000E6D676 /* Preview Assets.xcassets */; };
 		3D343BDC2AC1A2FA00E6D676 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D343BDB2AC1A2FA00E6D676 /* WidgetKit.framework */; };
@@ -27,7 +27,6 @@
 		3D343BE72AC1A2FD00E6D676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D343BE62AC1A2FD00E6D676 /* Assets.xcassets */; };
 		3D343BEB2AC1A2FD00E6D676 /* MyAppWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3D343BD92AC1A2FA00E6D676 /* MyAppWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3D343BFC2AC1A45E00E6D676 /* MyWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BFB2AC1A45E00E6D676 /* MyWatchAppApp.swift */; };
-		3D343BFE2AC1A45E00E6D676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BFD2AC1A45E00E6D676 /* ContentView.swift */; };
 		3D343C002AC1A46000E6D676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D343BFF2AC1A46000E6D676 /* Assets.xcassets */; };
 		3D343C032AC1A46000E6D676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D343C022AC1A46000E6D676 /* Preview Assets.xcassets */; };
 		3D343C062AC1A46000E6D676 /* MyWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3D343BF92AC1A45E00E6D676 /* MyWatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -168,7 +167,6 @@
 		3D343BE82AC1A2FD00E6D676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D343BF92AC1A45E00E6D676 /* MyWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D343BFB2AC1A45E00E6D676 /* MyWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWatchAppApp.swift; sourceTree = "<group>"; };
-		3D343BFD2AC1A45E00E6D676 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D343BFF2AC1A46000E6D676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D343C022AC1A46000E6D676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D343C0F2AC1A46E00E6D676 /* MyWatchAppWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWatchAppWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +226,8 @@
 		3D29C2672AC1B1FD006F1595 /* MyKit3 */ = {
 			isa = PBXGroup;
 			children = (
+				3D343BB42AC1A1E000E6D676 /* ContentView.swift */,
+				3D343BB62AC1A1E000E6D676 /* Item.swift */,
 				3D29C2712AC1B217006F1595 /* MyEnum.swift */,
 			);
 			path = MyKit3;
@@ -262,8 +262,6 @@
 			isa = PBXGroup;
 			children = (
 				3D343BB22AC1A1E000E6D676 /* testFrameworkApp.swift */,
-				3D343BB42AC1A1E000E6D676 /* ContentView.swift */,
-				3D343BB62AC1A1E000E6D676 /* Item.swift */,
 				3D343BB82AC1A1E000E6D676 /* Assets.xcassets */,
 				3D343BBA2AC1A1E000E6D676 /* Preview Content */,
 			);
@@ -303,7 +301,6 @@
 			isa = PBXGroup;
 			children = (
 				3D343BFB2AC1A45E00E6D676 /* MyWatchAppApp.swift */,
-				3D343BFD2AC1A45E00E6D676 /* ContentView.swift */,
 				3D343BFF2AC1A46000E6D676 /* Assets.xcassets */,
 				3D343C012AC1A46000E6D676 /* Preview Content */,
 			);
@@ -539,6 +536,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D18ADC32B70EAFB00E53B6A /* ContentView.swift in Sources */,
+				3D18ADC42B70EB1200E53B6A /* Item.swift in Sources */,
 				3D18ADC22B70E89E00E53B6A /* MyEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,8 +546,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D343BB52AC1A1E000E6D676 /* ContentView.swift in Sources */,
-				3D343BB72AC1A1E000E6D676 /* Item.swift in Sources */,
 				3D343BB32AC1A1E000E6D676 /* testFrameworkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,7 +564,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D343BFE2AC1A45E00E6D676 /* ContentView.swift in Sources */,
 				3D343BFC2AC1A45E00E6D676 /* MyWatchAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -644,7 +640,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				MERGEABLE_LIBRARY = YES;
+				MERGEABLE_LIBRARY = NO;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomaskafka.MyKit3;
@@ -684,7 +680,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				MERGEABLE_LIBRARY = YES;
+				MERGEABLE_LIBRARY = NO;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomaskafka.MyKit3;

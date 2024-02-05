@@ -7,15 +7,19 @@
 
 import SwiftUI
 import SwiftData
-import MyKit3
 
-struct ContentView: View {
+public struct ContentView: View {
+	public init(_items: Query<Array<Item>.Element, [Item]> = .init(), myEnum: MyEnum = .one) {
+		self._items = _items
+		self.myEnum = myEnum
+	}
+	
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 	
 	private var myEnum: MyEnum = .one
 
-    var body: some View {
+  public var body: some View {
         NavigationSplitView {
             List {
                 ForEach(items) { item in
@@ -30,9 +34,12 @@ struct ContentView: View {
 							Text("One or two? \(myEnum.str).")
             }
             .toolbar {
+							#if !os(watchOS)
                 ToolbarItem(placement: .navigationBarTrailing) {
+									
                     EditButton()
                 }
+							#endif
                 ToolbarItem {
                     Button(action: addItem) {
                         Label("Add Item", systemImage: "plus")
