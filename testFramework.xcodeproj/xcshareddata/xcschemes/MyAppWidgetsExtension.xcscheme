@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1500"
-   wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D343C0E2AC1A46E00E6D676"
-               BuildableName = "MyWatchWidgetsExtension.appex"
-               BlueprintName = "MyWatchWidgetsExtension"
-               ReferencedContainer = "container:testFramework.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3D343BF82AC1A45E00E6D676"
-               BuildableName = "MyWatchApp Watch App.app"
-               BlueprintName = "MyWatchApp Watch App"
+               BlueprintIdentifier = "3D343BD82AC1A2FA00E6D676"
+               BuildableName = "MyAppWidgetsExtension.appex"
+               BlueprintName = "MyAppWidgetsExtension"
                ReferencedContainer = "container:testFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -74,21 +59,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3D343C0E2AC1A46E00E6D676"
-            BuildableName = "MyWatchWidgetsExtension.appex"
-            BlueprintName = "MyWatchWidgetsExtension"
+            BlueprintIdentifier = "3D343BAE2AC1A1E000E6D676"
+            BuildableName = "MyApp.app"
+            BlueprintName = "MyApp"
             ReferencedContainer = "container:testFramework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3D343BF82AC1A45E00E6D676"
-            BuildableName = "MyWatchApp Watch App.app"
-            BlueprintName = "MyWatchApp Watch App"
-            ReferencedContainer = "container:testFramework.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "_XCWidgetKind"
@@ -112,14 +88,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
+      debugDocumentVersioning = "YES"
+      askForAppToLaunch = "Yes"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3D343C0E2AC1A46E00E6D676"
-            BuildableName = "MyWatchWidgetsExtension.appex"
-            BlueprintName = "MyWatchWidgetsExtension"
+            BlueprintIdentifier = "3D343BAE2AC1A1E000E6D676"
+            BuildableName = "MyApp.app"
+            BlueprintName = "MyApp"
             ReferencedContainer = "container:testFramework.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

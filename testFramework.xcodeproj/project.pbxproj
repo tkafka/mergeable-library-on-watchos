@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D18ADBC2B70E07000E53B6A /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
+		3D18ADBF2B70E07400E53B6A /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D29C26C2AC1B1FD006F1595 /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D29C26D2AC1B1FD006F1595 /* MyKit3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D29C2722AC1B218006F1595 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29C2712AC1B217006F1595 /* MyEnum.swift */; };
-		3D29C2732AC1B227006F1595 /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
-		3D29C27C2AC1B232006F1595 /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D29C2812AC1B409006F1595 /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D29C2822AC1B409006F1595 /* MyKit3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D343BB32AC1A1E000E6D676 /* testFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BB22AC1A1E000E6D676 /* testFrameworkApp.swift */; };
@@ -25,18 +25,18 @@
 		3D343BE32AC1A2FA00E6D676 /* MyWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BE22AC1A2FA00E6D676 /* MyWidgets.swift */; };
 		3D343BE52AC1A2FA00E6D676 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BE42AC1A2FA00E6D676 /* AppIntent.swift */; };
 		3D343BE72AC1A2FD00E6D676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D343BE62AC1A2FD00E6D676 /* Assets.xcassets */; };
-		3D343BEB2AC1A2FD00E6D676 /* MyWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3D343BD92AC1A2FA00E6D676 /* MyWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D343BEB2AC1A2FD00E6D676 /* MyAppWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3D343BD92AC1A2FA00E6D676 /* MyAppWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3D343BFC2AC1A45E00E6D676 /* MyWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BFB2AC1A45E00E6D676 /* MyWatchAppApp.swift */; };
 		3D343BFE2AC1A45E00E6D676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BFD2AC1A45E00E6D676 /* ContentView.swift */; };
 		3D343C002AC1A46000E6D676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D343BFF2AC1A46000E6D676 /* Assets.xcassets */; };
 		3D343C032AC1A46000E6D676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D343C022AC1A46000E6D676 /* Preview Assets.xcassets */; };
-		3D343C062AC1A46000E6D676 /* MyWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3D343BF92AC1A45E00E6D676 /* MyWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D343C062AC1A46000E6D676 /* MyWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3D343BF92AC1A45E00E6D676 /* MyWatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3D343C102AC1A46E00E6D676 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D343BDB2AC1A2FA00E6D676 /* WidgetKit.framework */; };
 		3D343C112AC1A46E00E6D676 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D343BDD2AC1A2FA00E6D676 /* SwiftUI.framework */; };
 		3D343C142AC1A46E00E6D676 /* MyWatchWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343C132AC1A46E00E6D676 /* MyWatchWidgets.swift */; };
 		3D343C162AC1A46E00E6D676 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343C152AC1A46E00E6D676 /* AppIntent.swift */; };
 		3D343C182AC1A46F00E6D676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D343C172AC1A46F00E6D676 /* Assets.xcassets */; };
-		3D343C1C2AC1A46F00E6D676 /* MyWatchWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3D343C0F2AC1A46E00E6D676 /* MyWatchWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D343C1C2AC1A46F00E6D676 /* MyWatchAppWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3D343C0F2AC1A46E00E6D676 /* MyWatchAppWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,7 +120,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3D343BEB2AC1A2FD00E6D676 /* MyWidgetsExtension.appex in Embed Foundation Extensions */,
+				3D343BEB2AC1A2FD00E6D676 /* MyAppWidgetsExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,7 +131,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				3D343C062AC1A46000E6D676 /* MyWatchApp Watch App.app in Embed Watch Content */,
+				3D343C062AC1A46000E6D676 /* MyWatchApp.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +142,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3D343C1C2AC1A46F00E6D676 /* MyWatchWidgetsExtension.appex in Embed Foundation Extensions */,
+				3D343C1C2AC1A46F00E6D676 /* MyWatchAppWidgetsExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,7 +158,7 @@
 		3D343BB62AC1A1E000E6D676 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3D343BB82AC1A1E000E6D676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D343BBB2AC1A1E000E6D676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3D343BD92AC1A2FA00E6D676 /* MyWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D343BD92AC1A2FA00E6D676 /* MyAppWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyAppWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D343BDB2AC1A2FA00E6D676 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		3D343BDD2AC1A2FA00E6D676 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		3D343BE02AC1A2FA00E6D676 /* MyWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidgetsBundle.swift; sourceTree = "<group>"; };
@@ -166,12 +166,12 @@
 		3D343BE42AC1A2FA00E6D676 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		3D343BE62AC1A2FD00E6D676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D343BE82AC1A2FD00E6D676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D343BF92AC1A45E00E6D676 /* MyWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D343BF92AC1A45E00E6D676 /* MyWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D343BFB2AC1A45E00E6D676 /* MyWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWatchAppApp.swift; sourceTree = "<group>"; };
 		3D343BFD2AC1A45E00E6D676 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D343BFF2AC1A46000E6D676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D343C022AC1A46000E6D676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3D343C0F2AC1A46E00E6D676 /* MyWatchWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWatchWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D343C0F2AC1A46E00E6D676 /* MyWatchAppWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyWatchAppWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D343C132AC1A46E00E6D676 /* MyWatchWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWatchWidgets.swift; sourceTree = "<group>"; };
 		3D343C152AC1A46E00E6D676 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		3D343C172AC1A46F00E6D676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,7 +200,7 @@
 			files = (
 				3D343BDE2AC1A2FA00E6D676 /* SwiftUI.framework in Frameworks */,
 				3D343BDC2AC1A2FA00E6D676 /* WidgetKit.framework in Frameworks */,
-				3D29C2732AC1B227006F1595 /* MyKit3.framework in Frameworks */,
+				3D18ADBC2B70E07000E53B6A /* MyKit3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +218,7 @@
 			files = (
 				3D343C112AC1A46E00E6D676 /* SwiftUI.framework in Frameworks */,
 				3D343C102AC1A46E00E6D676 /* WidgetKit.framework in Frameworks */,
-				3D29C27C2AC1B232006F1595 /* MyKit3.framework in Frameworks */,
+				3D18ADBF2B70E07400E53B6A /* MyKit3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +250,9 @@
 			isa = PBXGroup;
 			children = (
 				3D343BAF2AC1A1E000E6D676 /* MyApp.app */,
-				3D343BD92AC1A2FA00E6D676 /* MyWidgetsExtension.appex */,
-				3D343BF92AC1A45E00E6D676 /* MyWatchApp Watch App.app */,
-				3D343C0F2AC1A46E00E6D676 /* MyWatchWidgetsExtension.appex */,
+				3D343BD92AC1A2FA00E6D676 /* MyAppWidgetsExtension.appex */,
+				3D343BF92AC1A45E00E6D676 /* MyWatchApp.app */,
+				3D343C0F2AC1A46E00E6D676 /* MyWatchAppWidgetsExtension.appex */,
 				3D29C2662AC1B1FD006F1595 /* MyKit3.framework */,
 			);
 			name = Products;
@@ -383,9 +383,9 @@
 			productReference = 3D343BAF2AC1A1E000E6D676 /* MyApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D343BD82AC1A2FA00E6D676 /* MyWidgetsExtension */ = {
+		3D343BD82AC1A2FA00E6D676 /* MyAppWidgetsExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D343BEC2AC1A2FD00E6D676 /* Build configuration list for PBXNativeTarget "MyWidgetsExtension" */;
+			buildConfigurationList = 3D343BEC2AC1A2FD00E6D676 /* Build configuration list for PBXNativeTarget "MyAppWidgetsExtension" */;
 			buildPhases = (
 				3D343BD52AC1A2FA00E6D676 /* Sources */,
 				3D343BD62AC1A2FA00E6D676 /* Frameworks */,
@@ -396,14 +396,14 @@
 			dependencies = (
 				3D29C2762AC1B227006F1595 /* PBXTargetDependency */,
 			);
-			name = MyWidgetsExtension;
+			name = MyAppWidgetsExtension;
 			productName = MyWidgetsExtension;
-			productReference = 3D343BD92AC1A2FA00E6D676 /* MyWidgetsExtension.appex */;
+			productReference = 3D343BD92AC1A2FA00E6D676 /* MyAppWidgetsExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		3D343BF82AC1A45E00E6D676 /* MyWatchApp Watch App */ = {
+		3D343BF82AC1A45E00E6D676 /* MyWatchApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D343C072AC1A46000E6D676 /* Build configuration list for PBXNativeTarget "MyWatchApp Watch App" */;
+			buildConfigurationList = 3D343C072AC1A46000E6D676 /* Build configuration list for PBXNativeTarget "MyWatchApp" */;
 			buildPhases = (
 				3D343BF52AC1A45E00E6D676 /* Sources */,
 				3D343BF62AC1A45E00E6D676 /* Frameworks */,
@@ -417,14 +417,14 @@
 				3D343C1B2AC1A46F00E6D676 /* PBXTargetDependency */,
 				3D29C27B2AC1B22D006F1595 /* PBXTargetDependency */,
 			);
-			name = "MyWatchApp Watch App";
+			name = MyWatchApp;
 			productName = "MyWatchApp Watch App";
-			productReference = 3D343BF92AC1A45E00E6D676 /* MyWatchApp Watch App.app */;
+			productReference = 3D343BF92AC1A45E00E6D676 /* MyWatchApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D343C0E2AC1A46E00E6D676 /* MyWatchWidgetsExtension */ = {
+		3D343C0E2AC1A46E00E6D676 /* MyWatchAppWidgetsExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D343C1D2AC1A46F00E6D676 /* Build configuration list for PBXNativeTarget "MyWatchWidgetsExtension" */;
+			buildConfigurationList = 3D343C1D2AC1A46F00E6D676 /* Build configuration list for PBXNativeTarget "MyWatchAppWidgetsExtension" */;
 			buildPhases = (
 				3D343C0B2AC1A46E00E6D676 /* Sources */,
 				3D343C0C2AC1A46E00E6D676 /* Frameworks */,
@@ -435,9 +435,9 @@
 			dependencies = (
 				3D29C27F2AC1B232006F1595 /* PBXTargetDependency */,
 			);
-			name = MyWatchWidgetsExtension;
+			name = MyWatchAppWidgetsExtension;
 			productName = MyWatchWidgetsExtension;
-			productReference = 3D343C0F2AC1A46E00E6D676 /* MyWatchWidgetsExtension.appex */;
+			productReference = 3D343C0F2AC1A46E00E6D676 /* MyWatchAppWidgetsExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -482,9 +482,9 @@
 			projectRoot = "";
 			targets = (
 				3D343BAE2AC1A1E000E6D676 /* MyApp */,
-				3D343BD82AC1A2FA00E6D676 /* MyWidgetsExtension */,
-				3D343BF82AC1A45E00E6D676 /* MyWatchApp Watch App */,
-				3D343C0E2AC1A46E00E6D676 /* MyWatchWidgetsExtension */,
+				3D343BD82AC1A2FA00E6D676 /* MyAppWidgetsExtension */,
+				3D343BF82AC1A45E00E6D676 /* MyWatchApp */,
+				3D343C0E2AC1A46E00E6D676 /* MyWatchAppWidgetsExtension */,
 				3D29C2652AC1B1FD006F1595 /* MyKit3 */,
 			);
 		};
@@ -606,17 +606,17 @@
 		};
 		3D343BEA2AC1A2FD00E6D676 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D343BD82AC1A2FA00E6D676 /* MyWidgetsExtension */;
+			target = 3D343BD82AC1A2FA00E6D676 /* MyAppWidgetsExtension */;
 			targetProxy = 3D343BE92AC1A2FD00E6D676 /* PBXContainerItemProxy */;
 		};
 		3D343C052AC1A46000E6D676 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D343BF82AC1A45E00E6D676 /* MyWatchApp Watch App */;
+			target = 3D343BF82AC1A45E00E6D676 /* MyWatchApp */;
 			targetProxy = 3D343C042AC1A46000E6D676 /* PBXContainerItemProxy */;
 		};
 		3D343C1B2AC1A46F00E6D676 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D343C0E2AC1A46E00E6D676 /* MyWatchWidgetsExtension */;
+			target = 3D343C0E2AC1A46E00E6D676 /* MyWatchAppWidgetsExtension */;
 			targetProxy = 3D343C1A2AC1A46F00E6D676 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1086,7 +1086,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D343BEC2AC1A2FD00E6D676 /* Build configuration list for PBXNativeTarget "MyWidgetsExtension" */ = {
+		3D343BEC2AC1A2FD00E6D676 /* Build configuration list for PBXNativeTarget "MyAppWidgetsExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D343BED2AC1A2FD00E6D676 /* Debug */,
@@ -1095,7 +1095,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D343C072AC1A46000E6D676 /* Build configuration list for PBXNativeTarget "MyWatchApp Watch App" */ = {
+		3D343C072AC1A46000E6D676 /* Build configuration list for PBXNativeTarget "MyWatchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D343C082AC1A46000E6D676 /* Debug */,
@@ -1104,7 +1104,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D343C1D2AC1A46F00E6D676 /* Build configuration list for PBXNativeTarget "MyWatchWidgetsExtension" */ = {
+		3D343C1D2AC1A46F00E6D676 /* Build configuration list for PBXNativeTarget "MyWatchAppWidgetsExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D343C1E2AC1A46F00E6D676 /* Debug */,
