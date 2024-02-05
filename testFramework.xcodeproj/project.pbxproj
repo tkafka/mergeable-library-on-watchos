@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		3D18ADBC2B70E07000E53B6A /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D18ADBF2B70E07400E53B6A /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
+		3D18ADC22B70E89E00E53B6A /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29C2712AC1B217006F1595 /* MyEnum.swift */; };
 		3D29C26C2AC1B1FD006F1595 /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D29C26D2AC1B1FD006F1595 /* MyKit3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3D29C2722AC1B218006F1595 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29C2712AC1B217006F1595 /* MyEnum.swift */; };
 		3D29C2812AC1B409006F1595 /* MyKit3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; };
 		3D29C2822AC1B409006F1595 /* MyKit3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D29C2662AC1B1FD006F1595 /* MyKit3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D343BB32AC1A1E000E6D676 /* testFrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D343BB22AC1A1E000E6D676 /* testFrameworkApp.swift */; };
@@ -539,7 +539,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D29C2722AC1B218006F1595 /* MyEnum.swift in Sources */,
+				3D18ADC22B70E89E00E53B6A /* MyEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +625,7 @@
 		3D29C26F2AC1B1FD006F1595 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -649,7 +650,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomaskafka.MyKit3;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -688,7 +689,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomaskafka.MyKit3;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTED_PLATFORMS = "xrsimulator xros watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
